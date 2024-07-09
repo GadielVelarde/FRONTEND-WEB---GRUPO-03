@@ -1,12 +1,21 @@
-.home {
-    background-image: url('C:\Users\Max Bryam\Desktop\gadiel\Gadiel\src\images\fondito.png'); /* Reemplaza con la ruta de tu imagen */
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-  }
-  
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  background-image: url('C:\Users\HP\Desktop\Plata pa Jueguitos\Gadiel\src\Images\Fondito.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.home-container .title {
+  margin-top: 20px; /* Ajusta este valor según sea necesario */
+}
+
+.home-container .buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px; /* Ajusta este valor según sea necesario para la separación */
+}
