@@ -1,13 +1,13 @@
 .profile-info {
   padding: 20px;
-  background-color: #00bfa5; /* Color de fondo actualizado */
+  background-color: #00bfa5;
   margin: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  text-align: center; /* Cambiado a 'center' para centrar el texto */
-  width: 90%; /* Ajusta el ancho según sea necesario */
-  max-width: 400px; /* Limita el ancho máximo */
-  color: white; /* Color del texto cambiado a blanco */
+  text-align: center; /* Centrar el contenido */
+  width: 90%;
+  max-width: 400px;
+  color: white;
   font-weight: bold;
 }
 
@@ -15,27 +15,30 @@
   margin: 10px 0;
 }
 
-.edit-button, .delete-button {
+.edit-button, .save-button {
   padding: 10px 20px;
   margin: 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-}
-
-.edit-button {
+  font-weight: bold;
   background-color: #007BFF;
   color: white;
 }
 
-.delete-button {
-  background-color: #FF0000;
-  color: white;
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
 }
 
-/* Centrar los botones */
-.button-container {
-  display: flex;
-  justify-content: center;
-  gap: 10px; /* Espacio entre los botones */
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
