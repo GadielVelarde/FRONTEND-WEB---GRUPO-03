@@ -1,16 +1,31 @@
 .section {
-    padding: 20px;
-    background-color: #fff;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  }
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.section-icon {
+  width: 100px; /* Ajusta el tamaño del ícono según sea necesario */
+  height: 100px;
+  margin-right: 20px; /* Espacio entre el ícono y el contenido */
   
-  .section h2 {
-    margin-bottom: 10px;
-  }
-  
-  .section p {
-    margin: 0;
-  }
-  
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.section h2 {
+  margin: 0 0 10px 0;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.section p {
+  margin: 0;
+}
