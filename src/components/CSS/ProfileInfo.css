@@ -1,0 +1,30 @@
+.profile-info {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .profile-info p {
+    margin: 10px 0;
+  }
+  
+  .edit-button, .delete-button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #FF0000;
+    color: white;
+  }
+  

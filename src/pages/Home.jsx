@@ -1,13 +1,14 @@
 import React from 'react';
 import './CSS/Home.css';
-import Title from '../components/Title';
-import Buttons from '../components/Buttons';
 
 const Home = () => {
   return (
     <div className="home">
-      <Title />
-      <Buttons />
+      <h1>What's up Pals</h1>
+      <div className="buttons">
+        <button className="button">Create Account</button>
+        <button className="button">Sign In</button>
+      </div>
     </div>
   );
 };
