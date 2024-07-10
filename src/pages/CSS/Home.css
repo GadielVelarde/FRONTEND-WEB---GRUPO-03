@@ -2,20 +2,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   height: 100vh;
-  background-image: url('C:\Users\Max Bryam\Desktop\gadiel\Gadiel\src\images\fondito.png');
-  background-size: cover;
+  background-image: url('C:\Users\HP\Desktop\Plata pa Jueguitos\Gadiel\src\Images\perrito.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   background-position: center;
 }
 
-.home-container .title {
+.title {
   margin-top: 20px; /* Ajusta este valor según sea necesario */
 }
 
-.home-container .buttons {
+.buttons-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-bottom: 30px; /* Ajusta este valor según sea necesario para la separación */
+  justify-content: center;
+  flex: 1;
 }

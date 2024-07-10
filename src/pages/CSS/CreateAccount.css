@@ -1,0 +1,20 @@
+.Create-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url('C:\Users\HP\Desktop\Plata pa Jueguitos\Gadiel\src\Images\Huella.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .title {
+    margin-top: 20px; /* Ajusta este valor según sea necesario */
+  }
+  
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+  }

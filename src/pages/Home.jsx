@@ -6,9 +6,7 @@ import Buttons from '../components/Buttons';
 const Home = () => {
   return (
     <div className="home-container">
-      <div className="title-container">
-        <Title />
-      </div>
+      <Title />
       <div className="buttons-container">
         <Buttons />
       </div>
