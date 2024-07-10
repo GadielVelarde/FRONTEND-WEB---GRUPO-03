@@ -18,7 +18,6 @@ const Profile = () => {
 
   return (
     <div className="profile">
-      <BackButton />
       <Header name={profile.name} />
       <ProfileInfo profile={profile} updateProfile={updateProfile} />
       <Section 

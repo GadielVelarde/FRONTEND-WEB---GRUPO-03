@@ -4,8 +4,9 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
+import Home2 from './pages/Home2';
 import Profile from './pages/Profile';
-import Activities from './pages/Activities'; // Nuevo componente para actividades
+import Activities from './pages/Activities';
 import BottomNav from './components/BottomNav';
 import CreateAccount from './pages/CreateAccount';
 import SignUp from './pages/SignUp';
@@ -19,6 +20,7 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/home2" element={<Home2 />} />
             <Route path="/perfil" element={<Profile />} />
             <Route path="/actividades" element={<Activities />} />
             <Route path="/create-account" element={<CreateAccount />} />
@@ -31,6 +33,5 @@ function App() {
     </div>
   );
 }
-
 
 export default App;

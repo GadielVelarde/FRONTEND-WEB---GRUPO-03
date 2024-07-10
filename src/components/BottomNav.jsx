@@ -22,7 +22,7 @@ const BottomNav = () => {
         {visible ? 'Hide' : 'Show'}
       </button>
       <div className={`bottom-nav ${visible ? 'visible' : ''}`}>
-        <button className="nav-button" onClick={() => navigate('/')}>
+        <button className="nav-button" onClick={() => navigate('/Home2')}>
           <img src="/images/home-icon.jpg" alt="Home" />
         </button>
         <button className="nav-button" onClick={() => navigate('/actividades')}>
