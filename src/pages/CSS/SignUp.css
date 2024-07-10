@@ -4,7 +4,10 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #6a0dad; /* Ajusta el color de fondo según sea necesario */
+    background-image: url('C:\Users\HP\Desktop\Plata pa Jueguitos\Gadiel\src\Images\login.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   
   h1 {

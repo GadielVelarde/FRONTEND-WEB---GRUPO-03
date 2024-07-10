@@ -1,15 +1,18 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { AuthContext } from '../AuthContext'; // Importa el AuthContext
 import './CSS/SignUp.css';
 
 const SignUp = () => {
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
   const [password, setPassword] = useState('');
+  const { login } = useContext(AuthContext); // Usa el contexto
   const navigate = useNavigate();
 
   const handleSubmit = () => {
     if (email && name && password) {
+      login(); // Llama a la función de inicio de sesión
       // Navegar a otra página después de la validación
       navigate('/perfil');
     } else {

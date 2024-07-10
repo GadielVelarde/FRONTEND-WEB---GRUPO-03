@@ -1,14 +1,20 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { AuthContext } from '../AuthContext'; // Importa el AuthContext
 import './CSS/BottomNav.css';
 
 const BottomNav = () => {
   const navigate = useNavigate();
+  const { isAuthenticated } = useContext(AuthContext); // Usa el contexto
   const [visible, setVisible] = useState(false);
 
   const toggleNav = () => {
     setVisible(!visible);
   };
+
+  if (!isAuthenticated) {
+    return null; // No renderizar el componente si no está autenticado
+  }
 
   return (
     <div>

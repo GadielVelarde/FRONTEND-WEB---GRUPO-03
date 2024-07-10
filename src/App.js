@@ -10,24 +10,27 @@ import BottomNav from './components/BottomNav';
 import CreateAccount from './pages/CreateAccount';
 import SignUp from './pages/SignUp';
 import SignIn from './pages/SignIn';
-
+import { AuthProvider } from './AuthContext'; // Importa el AuthProvider
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/perfil" element={<Profile />} />
-          <Route path="/actividades" element={<Activities />} />
-          <Route path="/create-account" element={<CreateAccount />} />
-          <Route path="/sign-up" element={<SignUp />} />
-          <Route path="/sign-in" element={<SignIn />} />
-        </Routes>
-        <BottomNav />
-      </Router>
+      <AuthProvider>
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/perfil" element={<Profile />} />
+            <Route path="/actividades" element={<Activities />} />
+            <Route path="/create-account" element={<CreateAccount />} />
+            <Route path="/sign-up" element={<SignUp />} />
+            <Route path="/sign-in" element={<SignIn />} />
+          </Routes>
+          <BottomNav />
+        </Router>
+      </AuthProvider>
     </div>
   );
 }
+
 
 export default App;
