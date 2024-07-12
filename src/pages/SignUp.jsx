@@ -14,6 +14,7 @@ const SignUp = () => {
     if (email && name && password) {
       login(); // Llama a la función de inicio de sesión
       // Navegar a otra página después de la validación
+
       navigate('/perfil');
     } else {
       alert('Por favor, complete todos los campos.');

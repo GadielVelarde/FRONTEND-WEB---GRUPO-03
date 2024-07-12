@@ -14,3 +14,4 @@ const Section = ({ title, description, icon }) => {
 };
 
 export default Section;
+

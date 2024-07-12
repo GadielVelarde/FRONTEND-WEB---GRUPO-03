@@ -8,6 +8,7 @@ const Home2 = () => {
       <p>Esta es una aplicación increíble que te ayudará a gestionar tus actividades y más.</p>
       <p>Explora las características y aprovecha al máximo esta herramienta.</p>
     </div>
+
   );
 };
 

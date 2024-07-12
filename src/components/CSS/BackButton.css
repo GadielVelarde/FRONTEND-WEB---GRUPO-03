@@ -9,6 +9,7 @@
     font-size: 14px;
     cursor: pointer;
     border-radius: 5px;
+
     z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
   }
   

@@ -5,6 +5,7 @@ import './CSS/BottomNav.css';
 
 const BottomNav = () => {
   const navigate = useNavigate();
+
   const { isAuthenticated } = useContext(AuthContext); // Usa el contexto
   const [visible, setVisible] = useState(false);
 

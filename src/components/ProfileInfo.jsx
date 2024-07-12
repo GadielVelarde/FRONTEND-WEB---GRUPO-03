@@ -14,6 +14,7 @@ const ProfileInfo = ({ profile, updateProfile }) => {
   };
 
   const handleEdit = () => {
+
     setEditing(!editing);
   };
 

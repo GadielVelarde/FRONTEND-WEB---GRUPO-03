@@ -10,6 +10,7 @@ const CreateAccount = () => {
 
   return (
     <div className="CreateA-container">
+
       <button className="back-btn" onClick={() => navigate(-1)}>Back</button>
     <Title />
     <div className="buttons-container">
@@ -17,6 +18,7 @@ const CreateAccount = () => {
     </div>
   </div>
   );
+
 };
 
 export default CreateAccount;

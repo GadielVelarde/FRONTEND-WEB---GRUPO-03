@@ -11,6 +11,7 @@ const Buttons = () => {
       <Link to="/sign-up">
         <button className="button">Usuario</button>
       </Link>
+
     </div>
   );
 };

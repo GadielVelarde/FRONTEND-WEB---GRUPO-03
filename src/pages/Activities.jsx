@@ -12,6 +12,7 @@ const Activities = () => {
   };
 
   return (
+
     <div className="activities-page">
       <h1>Actividades</h1>
       <button className="add-activity-button" onClick={() => setShowForm(!showForm)}>

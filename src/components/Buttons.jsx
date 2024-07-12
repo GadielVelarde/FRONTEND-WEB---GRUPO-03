@@ -7,6 +7,7 @@ const Buttons = () => {
     <div className="buttons">
       <Link to="/create-account">
         <button className="button">Crear Cuenta</button>
+
       </Link>
       <Link to="/sign-in">
       <button className="button">Iniciar Sesión</button>

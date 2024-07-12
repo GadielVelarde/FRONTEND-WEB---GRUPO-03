@@ -7,8 +7,8 @@ import './CSS/Profile.css';
 
 const Profile = () => {
   const [profile, setProfile] = useState({
-    email: 'gadiel_petlover@example.com',
-    name: 'Gadiel Velarde',
+    email: 'sara_petlover@example.com',
+    name: 'Sara Lopez',
     phone: '999 888 777',
   });
 

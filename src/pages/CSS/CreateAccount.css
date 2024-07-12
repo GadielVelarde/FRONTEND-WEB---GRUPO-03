@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     height: 100vh;
-    background-image: url('C:\Users\LENOVO\Desktop\gadiel\Gadiel\src\images\Huella.png');
+    background-image:  url('../../images/Huella.png');
     background-size: cover;
     background-position: center;
   }

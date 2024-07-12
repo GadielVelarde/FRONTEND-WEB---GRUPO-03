@@ -32,6 +32,7 @@ const CreateActivityForm = ({ addActivity }) => {
         <label>Nombre de la actividad:</label>
         <input
           type="text"
+
           name="name"
           value={form.name}
           onChange={handleChange}
